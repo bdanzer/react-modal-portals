@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-modal-portals/static/css/main.3474f075.chunk.css",
+    "main.css": "/react-modal-portals/static/css/main.12d79f78.chunk.css",
     "main.js": "/react-modal-portals/static/js/main.cb6cf9d3.chunk.js",
     "main.js.map": "/react-modal-portals/static/js/main.cb6cf9d3.chunk.js.map",
     "runtime-main.js": "/react-modal-portals/static/js/runtime-main.12aa9591.js",
@@ -8,15 +8,15 @@
     "static/js/2.1cddc60e.chunk.js": "/react-modal-portals/static/js/2.1cddc60e.chunk.js",
     "static/js/2.1cddc60e.chunk.js.map": "/react-modal-portals/static/js/2.1cddc60e.chunk.js.map",
     "index.html": "/react-modal-portals/index.html",
-    "precache-manifest.cd99a4a1bdb96f3984837360ce26db08.js": "/react-modal-portals/precache-manifest.cd99a4a1bdb96f3984837360ce26db08.js",
+    "precache-manifest.af8df9f3be353263091d091fbc6e595b.js": "/react-modal-portals/precache-manifest.af8df9f3be353263091d091fbc6e595b.js",
     "service-worker.js": "/react-modal-portals/service-worker.js",
-    "static/css/main.3474f075.chunk.css.map": "/react-modal-portals/static/css/main.3474f075.chunk.css.map",
+    "static/css/main.12d79f78.chunk.css.map": "/react-modal-portals/static/css/main.12d79f78.chunk.css.map",
     "static/js/2.1cddc60e.chunk.js.LICENSE": "/react-modal-portals/static/js/2.1cddc60e.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.12aa9591.js",
     "static/js/2.1cddc60e.chunk.js",
-    "static/css/main.3474f075.chunk.css",
+    "static/css/main.12d79f78.chunk.css",
     "static/js/main.cb6cf9d3.chunk.js"
   ]
 }
