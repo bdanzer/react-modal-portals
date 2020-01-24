@@ -1,0 +1,28 @@
+.image-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+
+    @media screen and (min-width: 767px) {
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &:focus {
+        outline: none;
+        &:before {
+            content: "";
+            border: 10px solid rgba(0, 0, 0, 0.37);
+            position: absolute;
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
