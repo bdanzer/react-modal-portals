@@ -1,68 +1,38 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Quick Start
 
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+```bash
+yarn install && yarn start
+```
 
 ### `yarn test`
 
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## Explanations
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### External Dependencies
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+* Axios - Chose this since fetch api isn't 100% supported in IE
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Accessibily 
 
-### `yarn eject`
+Although not part of the requirements, I added some accessibily features for keyboards and screen readers. When you are on the page start `tabbing` and hit `enter` on things you would normally click. The app does work if you just use your keyboard. If you're on mac os do `command + f5` to turn on VoiceOver while tabbing. It isn't perfect but just small showcase of some a11y support.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### TODO
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+I marked things in this project with TODO comments on things that could be done in a different way
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Style
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+I did style everything from scratch without any css/scss frameworks, and the app is mobile responsive
 
-## Learn More
+### Persistance
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+I didn't use any third party libraries for persistance I stuck with just calling directly to window localstorage for simplicity
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### State Management
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+I decided to not use any hooks or redux since the application isn't complicated enough yet although I did try to outline with the `TODOs` where it could be helpful at if the application gets any bigger or more features get added.
