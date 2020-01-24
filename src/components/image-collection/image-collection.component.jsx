@@ -7,7 +7,7 @@ import './image-collection.styles.scss';
 
 function ImageCollection({ images }) {
     return (
-        <div className="image-collection">
+        <div className="image-collection" data-testid="image-collection-test">
             {images.map(((image) => (
                 <ImageItem 
                     key={image.id}  
