@@ -23,7 +23,7 @@ Although not part of the requirements, I added some accessibily features for key
 
 ### TODO
 
-I marked things in this project with TODO comments on things that could be done in a different way
+I marked things in this project with TODO comments on things that might need to change as the application grows
 
 ### Style
 

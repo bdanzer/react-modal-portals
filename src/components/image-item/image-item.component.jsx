@@ -24,12 +24,12 @@ class ImageItem extends React.Component {
     }
 
     render() {
-        const {image: { title, url }} = this.props
+        const {image: { id, title, thumbnailUrl }} = this.props
 
         return (
             <React.Fragment>
-                <div tabIndex={0} aria-label={title} className="image-item" onClick={() => this.toggleModal()} onKeyDown={this.handleImageItemKeyDown.bind(this)}>
-                    <img alt={title} src={url}/>
+                <div tabIndex={0} data-testid={`image-${id}-test`} aria-label={title} className="image-item" onClick={() => this.toggleModal()} onKeyDown={this.handleImageItemKeyDown.bind(this)}>
+                    <img alt={title} src={thumbnailUrl}/>
                 </div>
 
                  {/* 

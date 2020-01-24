@@ -4,7 +4,13 @@ import PropTypes from 'prop-types'
 
 import './modal.styles.scss';
 
-const modalRoot = document.getElementById('modal');
+let modalRoot = document.getElementById('modal');
+
+if (!modalRoot) {
+  modalRoot = document.createElement('div');
+  modalRoot.setAttribute('id', 'modal');
+  document.body.appendChild(modalRoot);
+}
 
 class Modal extends React.Component {
     constructor(props) {
@@ -26,7 +32,7 @@ class Modal extends React.Component {
 
         return ReactDOM.createPortal(
             <React.Fragment>
-                <div className="backdrop" onClick={() => callBack()}></div>
+                <div data-testid="modal-backdrop-test" className="backdrop" onClick={() => callBack()}></div>
                 {children}
             </React.Fragment>, 
             this.el
